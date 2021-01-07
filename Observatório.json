@@ -1,0 +1,291 @@
+{ 
+    "name": "Observatório do Esporte de Minas Gerais", 
+    "dataColors": ["#B3B3B3", "#FF4F00", "#E6E6E6", "#999999", "#70BBFF", "#118DFF", "#252423", "#A5644E", "#FFFFFF", "#F26120"],
+    "background":"#FFFFFF",
+    "foreground": "#A5644E", 
+    "tableAccent": "#E6E6E6",
+    "maximum": "#999999",
+    "minimum": "#E6E6E6",
+    "secondLevelElements": "#605E5C",
+
+
+	"visualStyles": {
+        "*": {
+            "*": {
+                "title": [{
+                    "show": true,
+                    "fontSize": 14,
+                    "alignment": "left",
+                    "fontFamily": "Segoe UI",
+                    "fontColor": { "solid": { "color": "#FFFFFF" } },
+                    "background": { "solid": { "color": "#FF4F00" } }
+                            }]
+                  }
+               }
+                     ,
+    "slicer": {
+        "*": {
+            "header": [{
+					"show": true,
+					"fontColor": { "solid": { "color": "#000000"}},
+					"background": { "solid": { "color": ""}},
+					"outline": "None",
+					"textSize": 12,
+                    "fontFamily": "DIN"}],
+
+            "selection": [{
+                "selectAllCheckboxEnabled": false,
+                "singleSelect": false}],
+
+            "title": [{
+                "show": false,
+                "fontSize": 12,
+                "alignment": "left",
+                "fontFamily": "DIN",
+                "fontColor": { "solid": { "color": "#000000" }},
+                "background": { "solid": { "color": "#FFFFFF" } }
+                        }]
+            }    
+              },
+
+    "actionButton": {
+        "*": {
+            "visualHeader": [{
+                "show": true
+                            }],
+            "border": [{
+                "show": false
+                       }],
+            "fill": [{
+                "show": true}, 
+                    {
+                        "$id": "default",
+                        "transparency": 0,
+                        "fillColor": {"solid":{"color":"#FF4F00"}}
+                    }]
+             }
+                     },
+
+    "card": {
+        "*": {
+            "labels": [{
+                "color": { "solid": { "color": "#000000"}},
+                "labelDisplayUnits": "0",
+                "labelPrecision": 0,
+                "fontSize": 30}]
+             }
+            },
+
+    "tableEx": {
+        "*": {
+            "columnHeaders": [{
+                "fontColor": { "solid": { "color": "#000000"}},
+                "backColor": { "solid": { "color": "#FFFFFF"}},
+                "outline": "Bottom only",
+                "autoSizeColumnWidth": false,
+                "fontSize": 12,
+                "wordWrap": true
+                            }],
+            "values": [{
+                "fontColorPrimary": { "solid": { "color": "#000000"}},
+                "backColorPrimary": { "solid": { "color": "#FFFFFF"}},
+                "fontColorSecondary": { "solid": { "color": "#000000"}},
+                "backColorSecondary": { "solid": { "color": "#FFFFFF"}},
+                "outline": "None",
+                "urlIcon": false,
+                "wordWrap": true,
+                "fontFamily": "Segoe UI",
+                "fontSize": 10
+            }]
+             }
+               },
+
+    "pivotTable": {
+    "*": {
+
+        "stylePreset":[{
+            "name":"Default"
+                      }],
+
+        "grid": [{
+            "gridVertical": true,
+            "gridVerticalColor": { "solid": { "color": "#E6E6E6"}},
+            "gridVerticalWeight": 1,
+
+
+
+            "gridHorizontal": true,
+            "gridHorizontalColor": { "solid": { "color": "#E6E6E6"}},
+            "gridHorizontalWeight": 1,
+            "rowPadding": 3,
+            "outlineColor": { "solid": { "color": "#118DFF"}},
+            "outlineWeight": 1,
+            "textSize": 10,
+            "imageHeight": 75}],
+
+
+        "columnHeaders": [{
+            "fontColor": { "solid": { "color": "#000000"}},
+            "backColor": { "solid": { "color": "#FFFFFF"}},
+            "outline": "Bottom only",
+            "autoSizeColumnWidth": true,
+            "fontSize": 14,
+            "wordWrap": true,
+            "alignment": "Auto"
+                        }],
+
+        "values": [{
+            "fontColorPrimary": { "solid": { "color": "#000000"}},
+            "backColorPrimary": { "solid": { "color": "#FFFFFF"}},
+            "fontColorSecondary": { "solid": { "color": "#000000"}},
+            "backColorSecondary": { "solid": { "color": "#FFFFFF"}},
+            "outline": "None",
+            "urlIcon": false,
+            "wordWrap": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+        }],
+
+        "rowHeaders": [{
+            "fontColor": { "solid": { "color": "#000000"}},
+            "backColor": { "solid": { "color": "#FFFFFF"}},
+            "outline": "Right only",
+            "stepped": true,
+            "steppedLayoutIndentation": 10,					
+            "urlIcon": false,
+            "wordWrap": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 14,
+            "alignment": "Auto", 
+            "showExpandCollapseButtons":true
+                      }],
+
+            "total": [{
+            "fontColor": { "solid": { "color": "#000000"}},
+            "fontFamily": "Segoe UI",
+            "backColor": { "solid": { "color": "#FFFFFF"}},
+            "applyToHeaders": true,
+            "fontSize": 12
+                    }]
+            }
+        },
+    
+    "clusteredColumnChart": {
+        "*": {
+            "valueAxis": [{
+                "show": false,
+                "gridlineShow": false,
+                "labelColor": { "solid": { "color": "#000000"}}
+                    }],
+            "labels": [{
+                "show": true,
+                "color": { "solid": { "color": "#000000"}},
+                "labelPosition": "OutsideEnd",
+                "fontSize": 14}],
+            "categoryAxis": [{
+                "show": true,
+                "labelColor": { "solid": { "color": "#000000"}},
+                "fontSize": 14,
+                "concatenateLabels": true,
+                "showAxisTitle": true,
+                "axisStyle": "showTitleOnly",
+                "titleColor": { "solid": { "color": "#000000"}},
+                "titleFontSize": 12,
+                "titleFontFamily": "Segoe UI"
+                            }]
+                }
+                            },
+
+    "lineChart": {
+        "*": {
+            "general": [{
+                "responsive": true
+                       }],
+            "legend": [{
+                "show": true,
+                "position": "Top",
+                "showTitle": true,
+                "titleText": "",
+                "labelColor": { "solid": { "color": "#000000"}},
+                "fontFamily": "Segoe UI",
+                "fontSize": 12,
+                "legendMarkerRendering": "markerOnly",
+                "matchLineColor": false
+                       }],
+            "categoryAxis": [{
+                "show": true,
+                "axisType": "categorical",
+                "labelColor": { "solid": { "color": "#000000"}},
+                "fontSize": 14,
+                "fontFamily": "Segoe UI",
+                "preferredCategoryWidth": 30,
+                "maxMarginFactor": 28,
+                "concatenateLabels": true,
+                "showAxisTitle": true,
+                "axisStyle": "showTitleOnly",
+                "titleColor": { "solid": { "color": "#000000"}},
+                "titleText": "",
+                "titleFontSize": 12,
+                "titleFontFamily": "Segoe UI"
+                            }],
+            "valueAxis": [{
+                "show": false,
+                "position": "Left",
+                "axisScale": "Linear",  
+                "labelColor": { "solid": { "color": "#000000"}},
+                "fontSize": 14,
+                "fontFamily": "Segoe UI",
+                "labelDisplayUnits": "0",
+                "labelPrecision": "Auto",
+                "showAxisTitle": false,
+                "axisStyle": "showTitleOnly",
+                "color": { "solid": { "color": "000000"}},
+                "titleText": "",
+                "titleFontSize": 12,
+                "titleFontFamily": "Segoe UI",
+                "gridlineShow": false,
+                "gridlineColor": { "solid": { "color": "#FFFFFF"}},
+                "gridlineThickness": 2
+                        }],
+            "y2Axis": [{
+                "secStart": 0,
+                "secEnd": 2000,
+                "secFontSize": 16,
+                "secLabelColor": { "solid": { "color": "#0928DD"}},
+                "secShowAxisTitle": true,
+                "secTitleText": "",
+                "secTitleColor": { "solid": { "color": "#000000"}}
+                      }],
+            "dataPoint": [{
+                "defaultColor": { "solid": { "color": "#B3B3B3"}}
+                          }],
+            "labels": [{
+                "show": true,
+                "color": { "solid": { "color": "#000000"}},
+                "labelDisplayUnits": "0",
+                "labelPrecision": 1,
+                "fontSize": 13,
+                "fontFamily": "Segoe UI",
+                "enableBackground": true,
+                "backgroundColor": { "solid": { "color": "#FFFFFF"}},
+                "backgroundTransparency": 100
+                    }],	
+            "lineStyles": [{
+                "strokeWidth": 2,
+                "strokeLineJoin": "bevel",
+                "lineStyle": "solid",
+                "showMarker": false
+                          }],
+            "plotArea": [{
+                "transparency": 20
+                        }]
+        }
+                 }
+    }
+}
+
+    
+            
+
+    
+
