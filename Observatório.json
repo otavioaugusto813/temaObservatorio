@@ -8,7 +8,6 @@
     "minimum": "#E6E6E6",
     "secondLevelElements": "#605E5C",
 
-
 	"visualStyles": {
         "*": {
             "*": {
@@ -181,20 +180,75 @@
                 "show": true,
                 "color": { "solid": { "color": "#000000"}},
                 "labelPosition": "OutsideEnd",
-                "fontSize": 14}],
+                "fontSize": 10}],
             "categoryAxis": [{
                 "show": true,
                 "labelColor": { "solid": { "color": "#000000"}},
-                "fontSize": 14,
+                "fontSize": 10,
                 "concatenateLabels": true,
                 "showAxisTitle": true,
                 "axisStyle": "showTitleOnly",
                 "titleColor": { "solid": { "color": "#000000"}},
-                "titleFontSize": 12,
+                "titleFontSize": 10,
                 "titleFontFamily": "Segoe UI"
                             }]
                 }
                             },
+
+    "clusteredBarChart": {
+        "*": {
+            "valueAxis": [{
+                "show": false,
+                "gridlineShow": false,
+                "labelColor": { "solid": { "color": "#000000"}}
+                    }],
+            "labels": [{
+                "show": true,
+                "color": { "solid": { "color": "#000000"}},
+                "labelPosition": "OutsideEnd",
+                "fontSize": 10}],
+            "categoryAxis": [{
+                "show": true,
+                "labelColor": { "solid": { "color": "#000000"}},
+                "fontSize": 10,
+                "concatenateLabels": true,
+                "showAxisTitle": false,
+                "axisStyle": "showTitleOnly",
+                "titleColor": { "solid": { "color": "#000000"}},
+                "titleFontSize": 10,
+                "titleFontFamily": "Segoe UI"
+                            }]
+                }
+                            },
+
+
+        "columnChart": {
+            "*": {
+                "valueAxis": [{
+                    "show": false,
+                    "gridlineShow": false,
+                    "labelColor": { "solid": { "color": "#000000"}}
+                        }],
+                "labels": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#000000"}},
+                    "labelPosition": "OutsideEnd",
+                    "fontSize": 10}],
+                "categoryAxis": [{
+                    "show": true,
+                    "labelColor": { "solid": { "color": "#000000"}},
+                    "fontSize": 10,
+                    "concatenateLabels": true,
+                    "showAxisTitle": false,
+                    "axisStyle": "showTitleOnly",
+                    "titleColor": { "solid": { "color": "#000000"}},
+                    "titleFontSize": 10,
+                    "titleFontFamily": "Segoe UI"
+                                }]
+                    }
+                                },
+
+
 
     "lineChart": {
         "*": {
