@@ -276,7 +276,7 @@
             "axisStyle": "showTitleOnly",
             "titleColor": { "solid": { "color": "#000000"}},
             "titleFontSize": 10,
-            "titleFontFamily": "Segoe UI"
+            "titleFontFamily": "DIN"
                         }]
             }
                         } ,
@@ -432,7 +432,7 @@
                 "labels": [{
                     "show": true,
                     "color": { "solid": { "color": "#000000"}},
-                    "labelPosition": "InsideEnd",
+                    "labelPosition": "Insid eEnd",
                     "labelDisplayUnits": "0",
                     "labelPrecision": 1,
                     "fontSize": 13,
