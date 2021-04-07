@@ -1,6 +1,6 @@
 { 
     "name": "Observatório do Esporte de Minas Gerais", 
-    "dataColors": ["#B3B3B3", "#FF4F00", "#E6E6E6", "#999999", "#70BBFF", "#118DFF", "#252423", "#A5644E", "#FFFFFF", "#F26120", "#C3998A"],
+    "dataColors": ["#B3B3B3", "#F26120",  "#FF4F00", "#E6E6E6", "#999999", "#70BBFF", "#118DFF", "#252423", "#A5644E", "#FFFFFF", "#F26120", "#C3998A"],
     "background":"#FFFFFF",
     "foreground": "#A5644E", 
     "tableAccent": "#E6E6E6",
@@ -15,9 +15,8 @@
                     "show": true,
                     "fontSize": 14,
                     "alignment": "left",
-                    "fontFamily": "Segoe UI",
                     "fontColor": { "solid": { "color": "#FFFFFF" } },
-                    "background": { "solid": { "color": "#FF4F00" } }
+                    "background": { "solid": { "color": "#F26120" } }
                             }]
                   }
                }
@@ -29,8 +28,8 @@
 					"fontColor": { "solid": { "color": "#000000"}},
 					"background": { "solid": { "color": ""}},
 					"outline": "None",
-					"textSize": 12,
-                    "fontFamily": "DIN"}],
+					"textSize": 12
+                    }],
 
             "selection": [{
                 "selectAllCheckboxEnabled": false,
@@ -40,7 +39,6 @@
                 "show": false,
                 "fontSize": 12,
                 "alignment": "left",
-                "fontFamily": "DIN",
                 "fontColor": { "solid": { "color": "#000000" }},
                 "background": { "solid": { "color": "#FFFFFF" } }
                         }]
@@ -60,7 +58,7 @@
                     {
                         "$id": "default",
                         "transparency": 0,
-                        "fillColor": {"solid":{"color":"#FF4F00"}}
+                        "fillColor": {"solid":{"color":"#FFFFFF"}}
                     }]
              }
                      },
@@ -76,7 +74,9 @@
                 "show": false,
                 "color": { "solid": { "color": "#000000"}}}],
             "title": [{
-                "show": true
+                "show": true,
+                "fontSize": 14
+
                      }]
              }
             },
@@ -195,8 +195,7 @@
                 "showAxisTitle": true,
                 "axisStyle": "showTitleOnly",
                 "titleColor": { "solid": { "color": "#000000"}},
-                "titleFontSize": 10,
-                "titleFontFamily": "DIN"
+                "titleFontSize": 10
                             }]
                 }
                             },
@@ -222,8 +221,7 @@
                 "showAxisTitle": false,
                 "axisStyle": "showTitleOnly",
                 "titleColor": { "solid": { "color": "#000000"}},
-                "titleFontSize": 10,
-                "titleFontFamily": "DIN"
+                "titleFontSize": 10
                             }]
                 }
                             },
@@ -249,8 +247,7 @@
                     "showAxisTitle": false,
                     "axisStyle": "showTitleOnly",
                     "titleColor": { "solid": { "color": "#000000"}},
-                    "titleFontSize": 10,
-                    "titleFontFamily": "DIN"
+                    "titleFontSize": 10
                                 }]
                     }
                    },
@@ -275,8 +272,7 @@
             "showAxisTitle": false,
             "axisStyle": "showTitleOnly",
             "titleColor": { "solid": { "color": "#000000"}},
-            "titleFontSize": 10,
-            "titleFontFamily": "DIN"
+            "titleFontSize": 10
                         }]
             }
                         } ,
@@ -302,7 +298,6 @@
                 "axisType": "categorical",
                 "labelColor": { "solid": { "color": "#000000"}},
                 "fontSize": 14,
-                "fontFamily": "DIN",
                 "preferredCategoryWidth": 30,
                 "maxMarginFactor": 28,
                 "concatenateLabels": true,
@@ -310,8 +305,7 @@
                 "axisStyle": "showTitleOnly",
                 "titleColor": { "solid": { "color": "#000000"}},
                 "titleText": "",
-                "titleFontSize": 12,
-                "titleFontFamily": "DIN"
+                "titleFontSize": 12
                             }],
             "valueAxis": [{
                 "show": false,
@@ -377,7 +371,6 @@
                     "showTitle": true,
                     "titleText": "",
                     "labelColor": { "solid": { "color": "#000000"}},
-                    "fontFamily": "DIN",
                     "fontSize": 12,
                     "legendMarkerRendering": "markerOnly",
                     "matchLineColor": false
@@ -387,7 +380,6 @@
                     "axisType": "categorical",
                     "labelColor": { "solid": { "color": "#000000"}},
                     "fontSize": 14,
-                    "fontFamily": "DIN",
                     "preferredCategoryWidth": 30,
                     "maxMarginFactor": 28,
                     "concatenateLabels": true,
@@ -395,8 +387,7 @@
                     "axisStyle": "showTitleOnly",
                     "titleColor": { "solid": { "color": "#000000"}},
                     "titleText": "",
-                    "titleFontSize": 12,
-                    "titleFontFamily": "DIN"
+                    "titleFontSize": 12
                                 }],
                 "valueAxis": [{
                     "show": false,
@@ -404,7 +395,6 @@
                     "axisScale": "Linear",  
                     "labelColor": { "solid": { "color": "#000000"}},
                     "fontSize": 14,
-                    "fontFamily": "DIN",
                     "labelDisplayUnits": "0",
                     "labelPrecision": "Auto",
                     "showAxisTitle": false,
@@ -412,7 +402,6 @@
                     "color": { "solid": { "color": "000000"}},
                     "titleText": "",
                     "titleFontSize": 12,
-                    "titleFontFamily": "DIN",
                     "gridlineShow": false,
                     "gridlineColor": { "solid": { "color": "#FFFFFF"}},
                     "gridlineThickness": 2
@@ -436,7 +425,6 @@
                     "labelDisplayUnits": "0",
                     "labelPrecision": 1,
                     "fontSize": 13,
-                    "fontFamily": "DIN",
                     "enableBackground": true,
                     "backgroundColor": { "solid": { "color": "#FFFFFF"}},
                     "backgroundTransparency": 100
